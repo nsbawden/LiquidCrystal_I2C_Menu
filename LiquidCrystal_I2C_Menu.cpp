@@ -12,7 +12,7 @@ uint8_t iconCancel[8]  = {0x0, 0x0, 0x11, 0xa, 0x4, 0xa, 0x11};
 
 #ifdef CYRILLIC_DISPLAY
   #include <avr/pgmspace.h>
-  // Таблица перекодировки для дисплеев с поддержкой кириллицы
+  // Conversion table for displays with Cyrillic support
   const uint8_t rusRecodeTable[] PROGMEM = {
     'A',   // А
     160,   // Б
